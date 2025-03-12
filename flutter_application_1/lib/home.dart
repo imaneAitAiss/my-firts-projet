@@ -183,7 +183,7 @@ class _HomeState extends State<Home> {
                   ),
               ],
             )
-          : Center(child: CircularProgressIndicator()), //dik dwayra likador عند تحميل البيانات (مثل جلب المشاركات أو التعليقات من الخادم)، يتم عرض هذا العنصر ليُظهر للمستخدم أن البيانات لم تُحمّل بعد وأن التطبيق يعمل على استرجاعها.
+          : Center(child: CircularProgressIndicator()), //dik dwayra likador 
     );
   }
 }
